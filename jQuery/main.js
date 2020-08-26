@@ -131,16 +131,16 @@
 
 //exrec 1 + 2
 
-$("body").append(`<input type="text" id="my-input" placeholder="Humen name"></input>`)
-$("body").append(`<button>Add Humen</button>`)
+// $("body").append(`<input type="text" id="my-input" placeholder="Humen name"></input>`)
+// $("body").append(`<button>Add Humen</button>`)
 
-$("button").on("click", function(){
-  $("ul").append(`<li>${$("input").val()}</li>`)
-  $("input").val("")
-});
+// $("button").on("click", function(){
+//   $("ul").append(`<li>${$("input").val()}</li>`)
+//   $("input").val("")
+// });
 
-$("#namesList").on("click", "li", function(){
-  $(this).remove()
-});
+// $("#namesList").on("click", "li", function(){
+//   $(this).remove()
+// });
 
 
